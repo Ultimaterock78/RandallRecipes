@@ -1,16 +1,24 @@
 Package: RandallRecipes
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Recipe Exploration Toolkit
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Destini", "Randall",
+      email = "destinirandall@yahoo.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: This package provides a dataset of recipes and uses functions for searching, filtering, and visualizing them.
+  Users can search for specific recipes, generate random ones, and filter them based on ingredients.
+  There is also a functions allowing users to graph recipes and compare their characteristics.
+  This package is intended for culinary students, chefs, and anyone interested in exploring recipe data.
+Imports: ggplot2, jsonlite, tidyr
+License: CC0
 Encoding: UTF-8
 LazyData: true
+URL: https://github.com/Ultimaterock78/RandallRecipes
+BugReports: https://github.com/Ultimaterock78/RandallRecipes/issues
+RoxygenNote: 7.3.3
+Depends: 
+    R (>= 3.5)
